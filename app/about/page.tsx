@@ -1,11 +1,9 @@
-import CodeSnippet from "@/components/code-snippet";
 import {
   PageHeader,
   PageHeaderDescription,
   PageHeaderHeading,
 } from "@/components/page-header";
 import Pager from "@/components/pager";
-import { code } from "@/config/codeContent";
 
 const AboutMePage = () => {
   return (
@@ -37,8 +35,6 @@ const AboutMePage = () => {
           lives.
         </PageHeaderDescription>
       </PageHeader>
-
-      <CodeSnippet title="aboutMe.ts" code={code.aboutMe} />
 
       <Pager
         prevHref="/"

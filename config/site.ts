@@ -8,10 +8,10 @@ export const siteConfig = {
     telegram: "https://t.me/cypherab01",
     twitter: "https://x.com/cypherab01",
     github: "https://github.com/cypherab01/abhishekg.com.np",
-    githubProfile: "https://github.com/cypherab01",
+    githubProfile: "https://github.com/admiral-simo",
     resume: "https://www.overleaf.com/read/pwbbqtpthxxr#946f81",
     email: "mailto:aghimire074@gmail.com",
-    githubUsername: "cypherab01",
+    githubUsername: "admiral-simo",
   },
   bitinfonepal: "https://bitinfonepal.com",
 };

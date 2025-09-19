@@ -1,4 +1,3 @@
-import CodeSnippet from "@/components/code-snippet";
 import {
   PageHeader,
   PageHeaderDescription,
@@ -7,7 +6,6 @@ import {
 import Pager from "@/components/pager";
 import { HoverCardContent, HoverCardTrigger } from "@/components/ui/hover-card";
 import { HoverCard } from "@/components/ui/hover-card";
-import { code } from "@/config/codeContent";
 import { siteConfig } from "@/config/site";
 import Link from "next/link";
 
@@ -133,8 +131,6 @@ const EducationPage = () => {
           </p>
         </li>
       </ol>
-
-      <CodeSnippet code={code.educationJourney} title="educationJourney.ts" />
 
       <Pager
         prevHref="/experience"

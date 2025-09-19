@@ -25,25 +25,25 @@ export const metadata: Metadata = {
   description: siteConfig.description,
   metadataBase: new URL(siteConfig.url),
   keywords: [
-    "Abhishek Ghimire",
-    "Abhishek G",
+    "Mohamed Khalis",
+    "Mohamed K",
     "abhishekg.com.np",
-    "Abhishek Ghimire Portfolio",
-    "Abhishek Ghimire Projects",
-    "Abhishek Ghimire Skills",
-    "Abhishek Ghimire Experience",
-    "Abhishek Ghimire Education",
-    "Abhishek Ghimire Contact",
-    "Abhishek Ghimire Blog",
-    "Abhishek Ghimire Resume",
+    "Mohamed Khalis Portfolio",
+    "Mohamed Khalis Projects",
+    "Mohamed Khalis Skills",
+    "Mohamed Khalis Experience",
+    "Mohamed Khalis Education",
+    "Mohamed Khalis Contact",
+    "Mohamed Khalis Blog",
+    "Mohamed Khalis Resume",
   ],
   authors: [
     {
-      name: "Abhishek Ghimire",
+      name: "Mohamed Khalis",
       url: "https://abhishekg.com.np",
     },
   ],
-  creator: "Abhishek Ghimire",
+  creator: "Mohamed Khalis",
   openGraph: {
     type: "website",
     locale: "en_US",
@@ -115,8 +115,11 @@ export default async function RootLayout({ children }: RootLayoutProps) {
           className={cn(
             "min-h-svh bg-background font-sans antialiased",
             fontSans.variable,
-            fontMono.variable
+            fontMono.variable,
           )}
+          cz-shortcut-listen="true"
+          data-new-gr-c-s-check-loaded="14.1254.0"
+          data-gr-ext-installed=""
         >
           <ThemeProvider
             attribute="class"

@@ -1,8 +1,6 @@
 import { PageHeader, PageHeaderHeading } from "@/components/page-header";
 import Pager from "@/components/pager";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
-import CodeSnippet from "@/components/code-snippet";
-import { code } from "@/config/codeContent";
 import ContactForm from "./ContactForm";
 
 const ContactPage = async () => {
@@ -25,7 +23,7 @@ const ContactPage = async () => {
             <ContactForm />
           </TabsContent>
           <TabsContent value="details" className="mt-4">
-            <CodeSnippet title="contact.ts" code={code.contact} />
+            {/* TODO: Contact details */}
           </TabsContent>
         </Tabs>
       </div>

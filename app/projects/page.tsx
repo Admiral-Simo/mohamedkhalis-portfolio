@@ -1,4 +1,3 @@
-import CodeSnippet from "@/components/code-snippet";
 import { PageHeader } from "@/components/page-header";
 import { PageHeaderHeading } from "@/components/page-header";
 import Pager from "@/components/pager";
@@ -8,7 +7,6 @@ import {
   CardHeader,
   CardTitle,
 } from "@/components/ui/card";
-import { code } from "@/config/codeContent";
 import Link from "next/link";
 import { projects } from "./projects";
 
@@ -45,8 +43,6 @@ const ProjectsPage = () => {
           </Card>
         ))}
       </div>
-
-      <CodeSnippet code={code.projects} title="projects.ts" />
 
       <Pager
         prevHref="/about"
