@@ -41,6 +41,31 @@ export const siteConfig = {
       isLatest: false,
     },
   ],
+  education: [
+    {
+      title:
+        "Bachelor's in Cyber Security · ESTBM · University Sultan Moulay Slimane",
+      period: "October. 2025 - June. 2026 [EXPECTED]",
+      description:
+        "I am pursuing a Bachelor's in IT at Patan Multiple Campus, specializing in programming, web development, and software engineering.",
+      isLatest: true,
+    },
+    {
+      title:
+        "Diplôme Universitaire de Technologie (DUT) · ESTBM · University Sultan Moulay Slimane",
+      period: "October. 2023 - June. 2025",
+      description:
+        "I completed my higher secondary education in Physical Science from Deep Boarding High School, Butwal.",
+      isLatest: false,
+    },
+    {
+      title: "High School · LYCEE HASSAN II BENI MELLAL",
+      period: "June. 2023",
+      description:
+        "I completed my high school education in from LYCEE HASSAN II BENI MELLAL with a focus on Physical Science.",
+      isLatest: false,
+    },
+  ],
 };
 
 export type SiteConfig = typeof siteConfig;
