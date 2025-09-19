@@ -4,6 +4,7 @@ import {
   PageHeaderHeading,
 } from "@/components/page-header";
 import Pager from "@/components/pager";
+import { siteConfig } from "@/config/site";
 
 interface ExperienceItem {
   role: string;
@@ -12,33 +13,6 @@ interface ExperienceItem {
   description: string;
   isLatest: boolean;
 }
-
-const experienceData: ExperienceItem[] = [
-  {
-    role: "Mobile and Web Developer",
-    company: "Mantra IT",
-    period: "Mar. 2025 - Present",
-    description:
-      "Currently building responsive web and mobile applications, including an air ticketing platform and E-Grow farming app, using React, Next.js, and React Native at Mantra IT.",
-    isLatest: true,
-  },
-  {
-    role: "Next.js Developer Internship",
-    company: "Treeleaf Technologies",
-    period: "Feb. 2025 - Mar. 2025",
-    description:
-      "Interned as a Next.js Developer at Treeleaf Technologies, developing and maintaining front-end components for web applications using React and Next.js while mastering modern web development practices.",
-    isLatest: false,
-  },
-  {
-    role: "CloudWorker (Part-time)",
-    company: "CloudWorker",
-    period: "Dec. 2023 - Present",
-    description:
-      "Working as a part-time CloudWorker at CloudFactory, where I annotate diverse datasets to support AI and machine learning projects while honing my attention to detail and time management skills.",
-    isLatest: false,
-  },
-];
 
 const ExperiencePage = () => {
   return (
@@ -60,7 +34,7 @@ const ExperiencePage = () => {
       </PageHeader>
 
       <ol className="relative mb-10 border-gray-200 border-s dark:border-gray-700">
-        {experienceData.map(
+        {siteConfig.experiences.map(
           ({
             period,
             role,
