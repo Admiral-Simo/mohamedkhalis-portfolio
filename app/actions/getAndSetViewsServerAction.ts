@@ -25,10 +25,10 @@ export async function setViewsServerAction() {
   try {
     await connectToDatabase();
 
-    const views = await View.findOneAndUpdate(
+    await View.findOneAndUpdate(
       {},
       { $inc: { views: 1 } },
-      { new: true, upsert: true }
+      { new: true, upsert: true },
     );
 
     return {

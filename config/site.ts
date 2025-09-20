@@ -75,6 +75,14 @@ export const siteConfig = {
       credentialUrl:
         "https://www.coursera.org/account/accomplishments/specialization/H9KM0XQCLYEB",
     },
+    {
+      title: "AWS Fundamentals Specialization Certificate",
+      issuer: "AWS (AWS Fundamentals Specialization)",
+      certificateImage:
+        "https://s3.amazonaws.com/coursera_assets/meta_images/generated/CERTIFICATE_LANDING_PAGE/CERTIFICATE_LANDING_PAGE~OI0X0SDJ6AV3/CERTIFICATE_LANDING_PAGE~OI0X0SDJ6AV3.jpeg",
+      credentialUrl:
+        "https://www.coursera.org/account/accomplishments/specialization/OI0X0SDJ6AV3",
+    },
   ],
 };
 
