@@ -23,9 +23,9 @@ const EducationPage = () => {
         </PageHeaderHeading>
         <PageHeaderDescription>
           Education has always been the cornerstone of my journey into the tech
-          world. Pursuing a Bachelor's in Information Technology (BIT) at Patan
-          Multiple Campus has provided me with a solid foundation in computer
-          science and software engineering principles.
+          world. Pursuing a Bachelor's in Information Technology (ESTBM) at
+          University Sultane Moulay Slimane has provided me with a solid
+          foundation in computer science and software engineering principles.
         </PageHeaderDescription>
 
         <PageHeaderDescription>

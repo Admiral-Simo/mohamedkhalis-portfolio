@@ -23,13 +23,20 @@ const ExperiencePage = () => {
           You need it to get the job, but the job’s what gives it!
         </PageHeaderHeading>
         <PageHeaderDescription>
-          Throughout my journey as a developer, I have had the opportunity to
-          work with cutting-edge technologies while also mastering the fine art
-          of debugging at 2 AM. From building dynamic web applications to
-          deciphering cryptic error messages, my experience has been a mix of
-          structured learning and spontaneous problem-solving. Each project and
-          internship has sharpened my ability to write clean code, collaborate
-          effectively, and most importantly—fix bugs before they fix me.
+          My journey as a developer has been a deep dive into both the clean
+          logic of algorithms and the beautiful chaos of production code. My
+          internship at GM-SOFT was the perfect training ground for this; one
+          day, I'd be carefully optimizing a legacy ERP system, hunting down
+          performance bottlenecks in code older than my career. The next, I'd be
+          architecting a greenfield OCR scanner from scratch with Golang and
+          Angular.
+        </PageHeaderDescription>
+        <PageHeaderDescription>
+          This experience taught me the most valuable lesson: a great engineer
+          isn't just someone who can solve a LeetCode problem, but someone who
+          can debug a cryptic legacy function and build the elegant solution
+          that replaces it. It's about having the patience to fix what's broken
+          and the vision to build what comes next.
         </PageHeaderDescription>
       </PageHeader>
 
