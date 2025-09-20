@@ -4,12 +4,13 @@ import {
   PageHeaderHeading,
 } from "@/components/page-header";
 import Pager from "@/components/pager";
+import { siteConfig } from "@/config/site";
 
 const AboutMePage = () => {
   return (
     <>
       <PageHeader>
-        <PageHeaderHeading>About Abhishek</PageHeaderHeading>
+        <PageHeaderHeading>About {siteConfig.name}</PageHeaderHeading>
         <PageHeaderHeading className="mt-2 text-muted-foreground">
           More than just a title—let’s dive deeper!
         </PageHeaderHeading>

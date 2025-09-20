@@ -27,7 +27,7 @@ export const metadata: Metadata = {
   keywords: [
     "Mohamed Khalis",
     "Mohamed K",
-    "abhishekg.com.np",
+    "mohamedkhalis.me",
     "Mohamed Khalis Portfolio",
     "Mohamed Khalis Projects",
     "Mohamed Khalis Skills",
@@ -40,7 +40,7 @@ export const metadata: Metadata = {
   authors: [
     {
       name: "Mohamed Khalis",
-      url: "https://abhishekg.com.np",
+      url: "https://mohamedkhalis.me",
     },
   ],
   creator: "Mohamed Khalis",

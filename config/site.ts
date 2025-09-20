@@ -1,19 +1,17 @@
 export const siteConfig = {
-  name: "abhishekg.com.np",
-  url: "https://abhishekg.com.np",
-  ogImage: "https://abhishekg.com.np/og.jpg",
-  description: "Portfolio of Abhishek Ghimire",
+  name: "Mohamed Khalis",
+  url: "https://mohamedkhalis.me",
+  description: "Portfolio of Mohamed Khalis",
   links: {
     shadcn: "https://ui.shadcn.com/",
     telegram: "https://t.me/cypherab01",
     twitter: "https://x.com/cypherab01",
-    github: "https://github.com/cypherab01/abhishekg.com.np",
+    github: "https://github.com/admiral-simo",
     githubProfile: "https://github.com/admiral-simo",
     resume: "https://www.overleaf.com/read/pwbbqtpthxxr#946f81",
-    email: "mailto:aghimire074@gmail.com",
+    email: "mailto:mohamedkhalis@proton.me",
     githubUsername: "admiral-simo",
   },
-  bitinfonepal: "https://bitinfonepal.com",
 
   experiences: [
     {

@@ -26,23 +26,10 @@ export function MainNav() {
             "transition-colors hover:text-foreground/80",
             pathname === "/docs/installation"
               ? "text-foreground"
-              : "text-foreground/80"
+              : "text-foreground/80",
           )}
         >
           Home
-        </Link>
-
-        <Link
-          target="_blank"
-          href="https://blog.abhishekg.com.np"
-          className={cn(
-            "transition-colors hover:text-foreground/80 flex gap-1",
-            pathname?.startsWith("/blog")
-              ? "text-foreground"
-              : "text-foreground/80"
-          )}
-        >
-          Blog <ExternalLink className="size-3" />
         </Link>
 
         <Link

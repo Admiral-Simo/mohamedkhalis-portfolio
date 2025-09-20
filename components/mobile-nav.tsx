@@ -27,7 +27,7 @@ export function MobileNav() {
       setOpen(open);
       setMetaColor(open ? "#09090b" : metaColor);
     },
-    [setMetaColor, metaColor]
+    [setMetaColor, metaColor],
   );
 
   return (
@@ -61,7 +61,7 @@ export function MobileNav() {
         <DrawerContent className="max-h-[80svh] p-0">
           <div className="p-6 overflow-auto">
             <div className="flex items-center justify-between gap-2 my-6">
-              <h4 className="text-xl font-medium">Abhishek Ghimire</h4>
+              <h4 className="text-xl font-medium">{siteConfig.name}</h4>
               <div className="flex items-center justify-center gap-4">
                 <ModeSwitcher className="size-6" />
                 <Link
@@ -85,7 +85,7 @@ export function MobileNav() {
                     >
                       {item.title}
                     </MobileLink>
-                  )
+                  ),
               )}
             </div>
             <div className="flex flex-col space-y-2">
