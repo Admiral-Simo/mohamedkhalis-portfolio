@@ -1,7 +1,6 @@
 import { PageHeader, PageHeaderHeading } from "@/components/page-header";
 import Pager from "@/components/pager";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
-import ContactForm from "./ContactForm";
 import {
   Card,
   CardContent,
@@ -9,51 +8,46 @@ import {
   CardHeader,
   CardTitle,
 } from "@/components/ui/card";
-import {
-  GithubIcon,
-  LinkedinIcon,
-  MailIcon,
-  MapPinIcon,
-  PhoneIcon,
-  UserIcon,
-} from "lucide-react";
+import ContactItem from "./ContactItem";
 
 const contactDetails = [
   {
     label: "Name",
     value: "Mohamed Khalis",
-    icon: UserIcon, // import some icon
+    icon: "user",
+    copyable: false,
   },
   {
     label: "Email",
     value: "mohamedkhalis@proton.me",
-    icon: MailIcon,
+    icon: "mail",
     href: "mailto:mohamedkhalis@proton.me",
+    copyable: true,
   },
   {
     label: "Whatsapp Mobile",
     value: "+212-606963061",
-    icon: PhoneIcon,
+    icon: "phone",
     href: "https://wa.me/+212606963061",
   },
   {
     label: "Location",
     value: "Benimellal, Morocco",
-    icon: MapPinIcon,
+    icon: "mapPin",
   },
   {
     label: "LinkedIn",
     value: "linkedin.com/in/mohamed-khalis-606327293",
-    icon: LinkedinIcon,
+    icon: "linkedin",
     href: "https://linkedin.com/in/mohamed-khalis-606327293",
   },
   {
     label: "GitHub",
     value: "github.com/admiral-simo",
-    icon: GithubIcon,
+    icon: "github",
     href: "https://github.com/admiral-simo",
   },
-];
+] as const;
 
 const ContactPage = async () => {
   return (
@@ -66,48 +60,27 @@ const ContactPage = async () => {
       </PageHeader>
 
       <div id="tabs" className="flex items-center mt-8">
-        <Tabs defaultValue="form" className="w-full">
+        <Tabs defaultValue="details" className="w-full">
           <TabsList className="max-w-[300px] w-full">
-            <TabsTrigger value="form">Form</TabsTrigger>
             <TabsTrigger value="details">Details</TabsTrigger>
           </TabsList>
-          <TabsContent value="form" className="mt-4">
-            <ContactForm />
-          </TabsContent>
           <TabsContent value="details" className="mt-4">
-            <Card className="max-w-lg">
+            <Card className="w-full">
               <CardHeader>
-                <CardTitle>Contact Details</CardTitle>
+                <CardTitle>Get in Touch</CardTitle>
                 <CardDescription>
-                  Feel free to reach out directly through any of these channels.
+                  Have a project in mind or just want to say hello? I'd love to
+                  hear from you.
                 </CardDescription>
               </CardHeader>
-              <CardContent className="space-y-6">
-                {contactDetails.map((detail) => (
-                  <div key={detail.label} className="flex items-center gap-4">
-                    <detail.icon className="h-5 w-5 text-gray-500" />
-                    <div className="flex-1">
-                      <p className="text-sm font-medium">{detail.label}</p>
-                      {detail.href ? (
-                        <a
-                          href={detail.href}
-                          target="_blank"
-                          rel="noopener noreferrer"
-                          className="text-sm text-indigo-400 hover:underline break-all"
-                        >
-                          {detail.value}
-                        </a>
-                      ) : (
-                        <p className="text-sm text-gray-600 break-all">
-                          {detail.value}
-                        </p>
-                      )}
-                    </div>
-                  </div>
-                ))}
+              <CardContent>
+                <div className="grid grid-cols-1 gap-4 sm:grid-cols-2">
+                  {contactDetails.map((detail) => (
+                    <ContactItem key={detail.label} {...detail} />
+                  ))}
+                </div>
               </CardContent>
             </Card>
-            {/* TODO: Contact details */}
           </TabsContent>
         </Tabs>
       </div>
@@ -121,4 +94,5 @@ const ContactPage = async () => {
     </>
   );
 };
+
 export default ContactPage;
