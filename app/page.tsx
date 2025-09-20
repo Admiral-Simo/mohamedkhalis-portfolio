@@ -1,52 +1,54 @@
-import { PageActions } from "@/components/page-header";
 import {
+  PageHeader,
   PageHeaderDescription,
   PageHeaderHeading,
 } from "@/components/page-header";
-import { PageHeader } from "@/components/page-header";
 import Pager from "@/components/pager";
-import { Button } from "@/components/ui/button";
 import { siteConfig } from "@/config/site";
-import Link from "next/link";
-import { ExternalLink, Mail } from "lucide-react";
 
-const IntroductionPage = async () => {
+const IntroductionPage = () => {
   return (
     <>
       <PageHeader>
-        <PageHeaderHeading>{siteConfig.name}</PageHeaderHeading>
+        <PageHeaderHeading>About {siteConfig.name}</PageHeaderHeading>
         <PageHeaderHeading className="mt-2 text-muted-foreground">
-          A coder by day, problem-solver by night!
+          More than just a title—let’s dive deeper!
         </PageHeaderHeading>
         <PageHeaderDescription>
-          I am a dedicated Software Engineer specializing in full-stack
-          application development. I enjoy crafting responsive web solutions
-          using modern technologies like Next.js, React, and Tailwind CSS.
-          Currently, I am expanding my skills into mobile development with React
-          Native and Expo, aiming to deliver comprehensive, user-centric
-          software solutions.
+          As a Full-Stack Software Engineer, my passion lies in the architecture
+          of building scalable, reliable applications and creating truly magical
+          web experiences. My core expertise is in developing powerful backend
+          systems with Java and Spring Boot, complemented by dynamic,
+          user-centric frontends built with React.js.
         </PageHeaderDescription>
-        <PageActions>
-          <Button asChild size="sm" className="rounded-md">
-            <Link href={siteConfig.links.resume} target="_blank">
-              Get Resume
-              <ExternalLink className="size-3" strokeWidth={2} />
-            </Link>
-          </Button>
-          <Button asChild size="sm" variant="ghost" className="rounded-md">
-            <Link href={siteConfig.links.email}>
-              <Mail className="size-4" />
-              Send Mail
-            </Link>
-          </Button>
-        </PageActions>
+
+        <PageHeaderDescription>
+          My journey is built on a solid foundation of structured learning,
+          evidenced by professional certificates from industry leaders like IBM
+          (Java) and Meta (React). I quickly translated this knowledge into
+          practice during my internship at GM-SOFT , where I co-developed a
+          production-level OCR passport scanner using Golang and Angular and
+          helped optimize a critical ERP system. This experience solidified my
+          ability to work collaboratively and ship reliable software under
+          real-world constraints.
+        </PageHeaderDescription>
+
+        <PageHeaderDescription>
+          Beyond my professional work, I am driven by the challenge of
+          engineering elegant solutions to complex problems. This is reflected
+          in my personal projects, from architecting a high-performance link
+          shortener with a focus on speed and caching to creating a technical
+          blog to document and share my learnings. I am eager to join a
+          forward-thinking team where I can contribute to building robust
+          systems and leave a lasting impact on users' lives.
+        </PageHeaderDescription>
       </PageHeader>
 
       <Pager
         prevHref="/"
-        nextHref="/about"
-        prevTitle="Previous"
-        nextTitle="About Me"
+        nextHref="/education"
+        prevTitle="Introduction"
+        nextTitle="Education"
       />
     </>
   );

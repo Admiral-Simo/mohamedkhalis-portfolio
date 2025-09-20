@@ -8,7 +8,7 @@ export const siteConfig = {
     twitter: "https://x.com/cypherab01",
     github: "https://github.com/admiral-simo",
     githubProfile: "https://github.com/admiral-simo",
-    resume: "https://www.overleaf.com/read/pwbbqtpthxxr#946f81",
+    resume: "https://flowcv.com/resume/29fcu2qtedh6",
     email: "mailto:mohamedkhalis@proton.me",
     githubUsername: "admiral-simo",
   },
