@@ -64,7 +64,7 @@ const ContactItem = ({ label, value, icon, href, copyable }: ContactDetail) => {
       )}
       <div className="flex items-start gap-4">
         <div className="h-5 w-5 text-muted-foreground">
-          <IconComponent className="h-5 w-5" />
+          {IconComponent && <IconComponent className="h-5 w-5" />}
         </div>
         <div className="flex-1">
           <p className="text-sm font-semibold leading-tight text-foreground">
