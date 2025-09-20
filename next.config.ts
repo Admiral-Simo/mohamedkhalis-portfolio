@@ -16,6 +16,14 @@ const nextConfig: NextConfig = {
         protocol: "https",
         hostname: "**.ufs.sh",
       },
+      {
+        protocol: "https",
+        hostname: "d3njjcbhbojbot.cloudfront.net",
+      },
+      {
+        protocol: "https",
+        hostname: "s3.amazonaws.com",
+      },
     ],
   },
   async headers() {

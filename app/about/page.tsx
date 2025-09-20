@@ -38,9 +38,9 @@ const AboutMePage = () => {
 
       <Pager
         prevHref="/"
-        nextHref="/projects"
+        nextHref="/education"
         prevTitle="Introduction"
-        nextTitle="Projects"
+        nextTitle="Education"
       />
     </>
   );

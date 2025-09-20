@@ -24,13 +24,8 @@ export const docsConfig = {
           items: [],
         },
         {
-          title: "Projects",
-          href: "/projects",
-          items: [],
-        },
-        {
-          title: "Skills & Tools",
-          href: "/skills-tools",
+          title: "Education",
+          href: "/education",
           items: [],
         },
         {
@@ -39,15 +34,15 @@ export const docsConfig = {
           items: [],
         },
         {
-          title: "Education",
-          href: "/education",
+          title: "Certificates",
+          href: "/certificates",
           items: [],
         },
-        // {
-        //   title: "Testimonials",
-        //   href: "/testimonials",
-        //   items: [],
-        // },
+        {
+          title: "Projects",
+          href: "/projects",
+          items: [],
+        },
         {
           title: "Contact",
           href: "/contact",

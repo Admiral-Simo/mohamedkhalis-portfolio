@@ -74,10 +74,10 @@ const ExperiencePage = () => {
       </ol>
 
       <Pager
-        prevHref="/skills-tools"
-        nextHref="/education"
-        prevTitle="Skills & Tools"
-        nextTitle="Education"
+        prevHref="/education"
+        nextHref="/certificates"
+        prevTitle="Education"
+        nextTitle="Certificates"
       />
     </>
   );

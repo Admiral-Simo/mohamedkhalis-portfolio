@@ -70,10 +70,10 @@ const EducationPage = () => {
       </ol>
 
       <Pager
-        prevHref="/experience"
-        nextHref="/contact"
-        prevTitle="Experience"
-        nextTitle="Contact"
+        prevHref="/about"
+        nextHref="/experience"
+        prevTitle="About Me"
+        nextTitle="Experience"
       />
     </>
   );

@@ -45,10 +45,10 @@ const ProjectsPage = () => {
       </div>
 
       <Pager
-        prevHref="/about"
-        nextHref="/skills-tools"
-        prevTitle="About"
-        nextTitle="Skills & Tools"
+        prevHref="/certificates"
+        nextHref="/contact"
+        prevTitle="Certificates"
+        nextTitle="Contact"
       />
     </>
   );

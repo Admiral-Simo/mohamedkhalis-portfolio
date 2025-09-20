@@ -17,27 +17,19 @@ export const siteConfig = {
 
   experiences: [
     {
-      role: "Mobile and Web Developer",
-      company: "Mantra IT",
-      period: "Mar. 2025 - Present",
+      role: "Backend Spring Boot Developer Intern",
+      company: "GM-Soft (Half German Half Moroccan Company)",
+      period: "3 months (June. 2025 - Aug. 2025)",
       description:
-        "Currently building responsive web and mobile applications, including an air ticketing platform and E-Grow farming app, using React, Next.js, and React Native at Mantra IT.",
+        "Helped with production ready application development using Spring Boot and Microservices architecture, focusing on building scalable backend services and APIs while gaining hands-on experience in enterprise-level software development, cloud deployment, and collaborative team workflows.",
       isLatest: true,
     },
     {
-      role: "Next.js Developer Internship",
-      company: "Treeleaf Technologies",
-      period: "Feb. 2025 - Mar. 2025",
+      role: "Backend golang Developer Intern",
+      company: "GM-Soft (Half German Half Moroccan Company)",
+      period: "2 months (April. 2024 - May. 2024)",
       description:
-        "Interned as a Next.js Developer at Treeleaf Technologies, developing and maintaining front-end components for web applications using React and Next.js while mastering modern web development practices.",
-      isLatest: false,
-    },
-    {
-      role: "CloudWorker (Part-time)",
-      company: "CloudWorker",
-      period: "Dec. 2023 - Present",
-      description:
-        "Working as a part-time CloudWorker at CloudFactory, where I annotate diverse datasets to support AI and machine learning projects while honing my attention to detail and time management skills.",
+        "Worked as a Backend Developer Intern at GM-Soft, where I contributed to building efficient backend services using Go (Golang). Gained practical experience in API development, database management, and collaborating within an agile team environment. managing the servers and databases for the applications.",
       isLatest: false,
     },
   ],
@@ -64,6 +56,24 @@ export const siteConfig = {
       description:
         "I completed my high school education in from LYCEE HASSAN II BENI MELLAL with a focus on Physical Science.",
       isLatest: false,
+    },
+  ],
+  certificates: [
+    {
+      title: "IBM Java Developer Professional Certificate",
+      issuer: "IBM (International Business Machines Corporation)",
+      certificateImage:
+        "https://s3.amazonaws.com/coursera_assets/meta_images/generated/CERTIFICATE_LANDING_PAGE/CERTIFICATE_LANDING_PAGE~LR8A37MI24TD/CERTIFICATE_LANDING_PAGE~LR8A37MI24TD.jpeg",
+      credentialUrl:
+        "https://www.coursera.org/account/accomplishments/specialization/LR8A37MI24TD",
+    },
+    {
+      title: "Meta React Specialization Certificate",
+      issuer: "Meta (Facebook)",
+      certificateImage:
+        "https://s3.amazonaws.com/coursera_assets/meta_images/generated/CERTIFICATE_LANDING_PAGE/CERTIFICATE_LANDING_PAGE~H9KM0XQCLYEB/CERTIFICATE_LANDING_PAGE~H9KM0XQCLYEB.jpeg",
+      credentialUrl:
+        "https://www.coursera.org/account/accomplishments/specialization/H9KM0XQCLYEB",
     },
   ],
 };
